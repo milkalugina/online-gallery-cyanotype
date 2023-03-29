@@ -1,0 +1,59 @@
+.upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 36px;
+}
+
+.upper h2 {
+    font-family: 'Wermut';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 90%;
+    color: #FFFEEA;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.text_poem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+}
+
+.text_poem p {
+    font-family: 'Wermut';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 154.52%;
+    display: flex;
+    align-items: flex-end;
+    color: #ECFFF3;
+    opacity: 0.4;
+}
+
+.read_btn a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.about_btn a {
+    color: #707070;
+    text-decoration: none;
+}
+
+.posters img {
+    margin-bottom: 25px;
+}
+
+.posters {
+    padding: 40px 0px;
+}
