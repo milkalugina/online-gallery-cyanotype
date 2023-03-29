@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Wermut';
+    src: url('Wermut.ttf');
+}
+
+body {
+    margin: 0px;
+    font-family: 'Wermut';
+    -webkit-font-smoothing: antialiased;
+    background: #E5E5E5;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    width: 60vw;
+    background-color: #0E0E0E;
+}
+
+.info .upper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.info .text {
+    font-family: 'Wermut';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFEEA;
+}
+
+.info h1 {
+    text-transform: uppercase;
+    color: #FFFEEA;
+    font-family: 'Wermut';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 90%;
+    text-align: center;
+    margin: 0px;
+}
+
+.about_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 12px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.read_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FFFEEA;
+    border-radius: 100px;
+    font-family: 'Wermut';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 154.52%;
+    color: #0E0E0E;
+    padding: 8px 90px;
+    border: 0px;
+    transition-duration: 0.4s;
+}
+
+.read_btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.about_btn {
+    padding: 8px 90px;
+    border: 0px;
+    transition-duration: 0.4s;
+    border-radius: 100px;
+    font-family: 'Wermut';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 154.52%;
+    background: #242424;
+    border-radius: 100px;
+    color: #707070;
+}
+
+.about_btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.subline  {
+    font-family: 'Wermut';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    display: flex;
+    align-items: flex-end;
+    color: #ECFFF3;
+    opacity: 0.4;
+}
+
+.subline a {
+    color: #ECFFF3;   
+}
+
+.subline a:hover {
+    cursor: pointer;
+}
+
+
+.posters {
+    position: absolute;
+    right: 0px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posters .vw_poster {
+    height: 150vh;
+    text-decoration-line: none;
+}
+.posters .vw_poster:hover {
+    cursor: pointer;
+}
+
+.vw_poster .poster {
+    top: 25px;
+    height: 100vh;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: -30px;
+}
+
+.poster img {
+    width: 90%;
+}
+
+.poster .poster_text {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+
+.poster .poster_text p {
+    align-items: flex-end;
+    text-align: right;
+    color: #0E0E0E;
+    opacity: 0.4;
+}
