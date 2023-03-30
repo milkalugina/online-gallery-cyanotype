@@ -183,6 +183,40 @@ body {
     color: #0E0E0E;
     opacity: 0.4;
 }
+
 @media (max-width: 1024px) {
-    
+    .all {
+        display: flex;
+        flex-direction: column;
+    }
+    .all h1 {
+        font-size: 75px;
+    }
+
+    .info {
+        position: relative;
+        width: 101vw;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .posters {
+        position: relative;
+        width: 100%;
+        padding-top: 5vh;
+    }
+
+    .vw_poster .poster {
+        top: 5vh;
+    }
+    .vw_poster .poster img {
+        height: 83vh;
+        object-fit: cover;
+        width: 85vw;
+    }
+    .poster .poster_text {
+        width: 85vw;
+    }
 }
